@@ -1,5 +1,7 @@
 const cloudinary = require("cloudinary").v2;
 
+
+//pulling in keys from .env file
 require("dotenv").config({ path: "./config/.env" });
 
 cloudinary.config({
